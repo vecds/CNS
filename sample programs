@@ -1,0 +1,46 @@
+-->Print ASCII  values of Charater.
+
+#include <stdio.h>
+int main()
+{
+    char X;
+    X ='a';
+    printf("ASCII value of %c is %d",X,X);
+    return 0;
+}
+
+
+-->Print ASCII  values of String.
+
+#include<stdio.h>
+int main()
+{
+    char string;
+    for(;;)
+    {
+    printf("\n enter a character : ");
+    scanf("%c",&string);
+    printf("\n ASCII value of %c is %d",string, string);
+}
+}
+
+
+-->Print Sum of ASCII values
+
+#include <stdio.h>
+int main() 
+{
+char string[]="HELLO";
+int i=0;
+int sum=0;
+for(;;)
+{
+printf("\nenter any character:  ");
+scanf("%c",&string[i]);
+printf("\n ASCII value of %c is %d",string[i],string[i]);
+sum +=string[i];
+printf("sum of string =%d",sum);
+i++;
+}
+return 0;
+}

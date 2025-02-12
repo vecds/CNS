@@ -18,7 +18,7 @@ int main()
     char string;
     for(;;)
     {
-    printf("\n enter a character : ");
+    printf("\n enter a String : ");
     scanf("%c",&string);
     printf("\n ASCII value of %c is %d",string, string);
 }

@@ -1,4 +1,4 @@
-Write a Java program to implement the DES algorithm logic.
+4.Write a Java program to implement the DES algorithm logic.
 
 import java.util.*; 
 import java.io.BufferedReader; 
